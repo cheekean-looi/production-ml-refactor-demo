@@ -1,0 +1,19 @@
+seed: 42
+training:
+  epochs: 2
+  batch_size: 256
+  lr: 0.001
+  num_workers: 2
+  device: "auto"   # "auto" | "cpu" | "cuda"
+data:
+  synthetic: true
+  samples: 60000
+  val_samples: 10000
+  image_size: 28
+model:
+  in_channels: 1
+  num_classes: 10
+  channels: [32, 64]
+  fc_dim: 128
+artifacts_dir: "artifacts"
+

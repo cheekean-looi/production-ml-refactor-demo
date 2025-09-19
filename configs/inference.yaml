@@ -1,0 +1,5 @@
+batch_size: 512
+batches: 20
+device: "auto"
+artifacts_dir: "artifacts"
+
